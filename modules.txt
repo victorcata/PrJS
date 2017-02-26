@@ -1,0 +1,57 @@
+-------------------------------------
+LOGIN
+-------------------------------------
+View Login
+    - Username
+    - Password
+    - Social media
+View User Profile
+
+Api Social Media
+    - Facebook, Twitter, Linkedin, Github
+
+DB Firebase
+    - User Entity
+        - username, password, name, lastname, isConnected, lastConnections, coordinates
+
+-------------------------------------
+WEB SOCKETS
+-------------------------------------
+View
+    - Users connected/disconnected
+    - Friends list
+    - Chat
+    - Update exchange information
+
+API web sockets
+    - Chat between users
+    - Change status when user is connected
+    - Exchange information (ETA route to a place per user) - TBD
+    - Invite a user as a friend
+
+-------------------------------------
+MAP
+-------------------------------------
+View
+    - Show map with user location (DEMO: Use fixed location)
+    - Show location of entertainment places
+    - Show path from user to place
+
+API Google Map
+    - Show user location
+    - Show places location
+    - Route between user an place
+    - ETA by car, public transport.
+
+-------------------------------------
+PLACES
+-------------------------------------
+View
+    - Kind of entertainment selector
+    - Show places on the map
+    - List of places
+
+API places
+    - Find an api to get restaurantes, cinemas, etc
+    - Cinemas: movies, schedules, etc
+    - Restaurants: Classified by kind of food, reviews, schedules, etc

@@ -1,0 +1,42 @@
+// PRACTICA
+
+1 - Login de usuario
+2 - Guardar su informacion en Firebase
+    1 - username
+    2 - password
+3 - Edicion del perfil
+    1 - Nombre
+    2 - username
+    3 - password
+    4 - Localizacion (geolocalizacion u otra) por google maps
+    5 - Lista de amigos a elegir
+4 - Websockets para ver que amigos estan conectados
+5 - Añadir una serie de usuarios aleatorios random
+6 - Recuperar de una API cines, restaurantes o opciones de ocio
+7 - Mediante websockets interactuar entre los amigos sobre las opciones para ver que tiene mas votos
+8 - Todo se muestra a traves de lo que esta cercano o un determinado punto
+9 - Por cada usuario que se muestre la ruta hacia cada punto
+10 - A nivel global se ve cuanto tardaria cada amigo al lugar
+
+
+// INTERFACES
+
+1 - Pagina de login
+    - Opcional: Login social
+2 - Pagina de perfil de usuario
+    - Con mapa para geolocalizacion o para indicar otra direccion
+    - Listado de usuarios de la red
+    - Listado de amigos
+3 - Pagina principal
+    - Chat entre todo los amigos
+    - Muestra todos los usuarios de la red
+    - Muestra el mapa (a decidir si por geolocalizacion o fijando el punto)
+    - Muestra posibilidades de ocio cercanas recuperadas de una API
+        - Cines
+            - Recuperar de alguna API los cines o peliculas
+        - Restaurantes
+            - Recuperar de alguna API restaurantes y opiniones?
+
+https://www.programmableweb.com/category/all/apis
+https://catalog.data.gov/dataset#sec-res_format
+passport.js
